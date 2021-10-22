@@ -1,0 +1,21 @@
+.newsfeed{
+    flex: 0.8;
+    display: flex;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.setImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.input___search{
+    margin-top: 6px;
+    width: 400px;
+    height:40px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-top-left-radius: 10px;
+}

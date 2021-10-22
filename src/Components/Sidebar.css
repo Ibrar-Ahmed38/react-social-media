@@ -1,0 +1,44 @@
+.sidebar__option{    
+    flex: 0.6;
+    display: flex;
+
+}
+
+
+.side__bar{
+    overflow-y: scroll;
+    height:90vh;
+    scroll-behavior: smooth;
+}
+
+.ul__items > *{
+   padding: 10px;
+   color: black;
+   
+}
+
+/* 
+.social__icon{
+    margin-right: 30px;
+} */
+
+.ul__items li{
+    font-size: 18px;
+    list-style: none;
+}
+
+.ul__items li :hover{
+    background-color: skyblue;
+    border-radius: 10px;
+}
+.ul__items li a{
+    padding-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.search__btn{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}

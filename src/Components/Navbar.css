@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input__search{
+    display: flex;
+    width: 400px;
+    height: 100%;
+    border: none;
+    align-items: center;
+    justify-content: center;    
+}
+
+.navbar-brand{
+    font-size: 22px;
+    
+}
+
+.nav-link{
+    font-size: 18px;
+    
+}
+
+
+.input__div{
+    display: flex;
+    width: 400px;
+    height: 39px;
+    margin-left: 20px;
+    align-items: center;
+    color: gray;
+    background-color:white;
+    border : none;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+}
+
+.search__icon{
+    border: none;
+    font-size: 25px;
+    color: black;
+}
