@@ -1,0 +1,7 @@
+.right__sidesec{
+    width: 600px;
+    height: 180px;
+    flex: 12;
+    display: flex;
+    justify-content: end;
+}

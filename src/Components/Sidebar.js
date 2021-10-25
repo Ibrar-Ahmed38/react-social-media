@@ -1,6 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import Newsfeed from './Newsfeed'
+import OnlineStutus from './OnlineStutus'
 
 const Sidebar = () => {
     return (
@@ -27,6 +28,9 @@ const Sidebar = () => {
         
             <div>
                     <Newsfeed />
+
+                    <OnlineStutus />
+                    
             </div>
         </div>
     )
