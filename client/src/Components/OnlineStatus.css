@@ -1,7 +1,50 @@
-.right__sidesec{
-    width: 600px;
-    height: 180px;
-    flex: 12;
+.OnlineStatus {
+  padding-top: 20px;
+}
+
+.OnlineStatus p {
+    font-size: 18px;
+}
+.three__others {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.gift {
+  color: purple;
+  font-size: 40px;
+}
+
+.Ibrar__faster {
+  font-size: 18 px;
+  font-weight: 500;
+  color: black;
+}
+
+
+.add__image{
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.status{
+    padding-top: 20px;
+}
+
+.online__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.show__Status{
     display: flex;
-    justify-content: end;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.show__Status h5 {
+    margin-left: 20px;
 }

@@ -28,9 +28,11 @@ const Sidebar = () => {
         
             <div>
                     <Newsfeed />
-
-                    <OnlineStutus />
                     
+            </div>
+
+            <div>
+                <OnlineStutus />
             </div>
         </div>
     )

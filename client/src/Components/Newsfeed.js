@@ -1,7 +1,8 @@
 import React from "react";
 import "./Newsfeed.css";
 import Images from "./Images/ibrar.jpg";
-
+import image from './Images/lapuwaa.jpg'
+import meelad from './Images/feed__photo1.jpg'
 
 const Newsfeed = () => {
   return (
@@ -32,9 +33,30 @@ const Newsfeed = () => {
             </p>
           </div>
         </div>
-          
-  
       </div>
+
+      <div className="social__posts">
+        <div className="social__div">
+        <div className="profile__img">
+            <img src={image} className="news_img" alt="" />
+            <p className="headings">Ibrar Ahmed</p>
+            <p className="timing">5 mins ago</p>
+        </div>
+
+        <div className="first__social__post">
+          <p>Hi This is a my first poost in own implemented social media app</p>
+
+          <img src={meelad} alt="meelad.jpg" className="meelad" />
+        </div>
+        </div>
+        
+
+     
+
+      </div>
+
+      
+    
 
     </div>
   );
