@@ -9,6 +9,7 @@
     width: 400px;
     height: 100%;
     border: none;
+    border-radius: 50px;
     align-items: center;
     justify-content: center;    
 }
@@ -26,7 +27,7 @@
 
 .input__div{
     display: flex;
-    width: 400px;
+    width: 600px;
     height: 39px;
     margin-left: 20px;
     align-items: center;

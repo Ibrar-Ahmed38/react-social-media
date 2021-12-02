@@ -19,9 +19,12 @@
   },
   "homepage": "https://github.com/Ibrar-Ahmed38/react-social-media#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.1.3",
     "mongoose": "^6.0.12",
     "morgan": "^1.10.0"
   }

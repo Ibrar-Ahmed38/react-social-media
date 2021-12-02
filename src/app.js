@@ -5,10 +5,9 @@ const dotenv = require("dotenv").config({ path: "./config.env" });
 const morgan = require("morgan");
 const helmet = require("helmet");
 require('./Db/Connection')
-
-const UserRoute = require("./Routes/Users");
-const AuthRoute = require('./Routes/Auth')
-
+const userRoute = require("./Routes/users");
+const authRoute = require('./Routes/auth')
+const errorHandle = require('./error')
 // Middlewares
 
 app.use(express.json());
@@ -16,14 +15,15 @@ app.use(helmet());
 app.use(morgan("common"));
 
 
-app.use("/users", UserRoute);
-app.use("/auth", AuthRoute);
-
+app.use("/api/users", userRoute);
+app.use("/api/auth", authRoute);
+app.use(errorHandle)
 
   // routing 
-app.get("", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hello this is a Homepage of express js");
 });
+
 
 
 app.listen(port, () => {
